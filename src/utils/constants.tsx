@@ -11,6 +11,10 @@ export const SOCIAL_LINKS = {
 
 export const SKILL_CATEGORIES: SkillCategory[] = [
   {
+    title: 'Frontend',
+    skills: ['TypeScript', 'Next.js', 'React.js', 'TailwindCSS', 'Zustand', 'Framer Motion']
+  },
+  {
     title: 'Backend & Systems',
     skills: ['Node.js', 'Express.js', 'PostgreSQL', 'MongoDB', 'Redis', 'BullMQ', 'RabbitMQ', 'Apache Kafka', 'WebSockets', 'Prisma']
   },
@@ -21,10 +25,6 @@ export const SKILL_CATEGORIES: SkillCategory[] = [
   {
     title: 'Cloud & DevOps',
     skills: ['AWS (EC2, ECS, S3)', 'Docker', 'Nginx', 'GitHub Actions', 'CloudFront', 'SQS', 'IAM']
-  },
-  {
-    title: 'Frontend',
-    skills: ['React.js', 'Next.js', 'TypeScript', 'TailwindCSS', 'Zustand', 'Framer Motion']
   }
 ];
 
