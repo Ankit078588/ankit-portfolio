@@ -77,7 +77,7 @@ const App: React.FC = () => {
         {/* SKILLS */}
         <section id="skills" className="py-24 px-6 border-t border-[#1F1F1F]">
           <div className="max-w-6xl mx-auto">
-            <SectionHeading title="Technical Stack" subtitle="Core Competencies & Tools" />
+            <SectionHeading title="Technical Stack" subtitle="Core Technologies & Tools" />
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-x-6 gap-y-6">
               {SKILL_CATEGORIES.map((cat, i) => (
                 <div key={i} className="p-8 bg-[#111111] border border-[#1F1F1F] hover:border-[#14F195]/50 transition-colors rounded-lg">
